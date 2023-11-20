@@ -4,6 +4,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import Logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
@@ -14,19 +15,19 @@ const Navbar = () => {
       <div>
         <ul className="hidden md:flex ">
           <li>
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="/about">About</a>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <a href="/skills">Skills</a>
+            <Link to="/skills">Skills</Link>
           </li>
           <li>
-            <a href="/work">Work</a>
+            <Link to="/work">Work</Link>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </div>
@@ -44,19 +45,19 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }>
         <li className="py-6 text-4xl">
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li className="py-6 text-4xl">
-          <a href="/about">About</a>
+          <Link to="/about">About</Link>
         </li>
         <li className="py-6 text-4xl">
-          <a href="/skills">Skills</a>
+          <Link to="/skills">Skills</Link>
         </li>
         <li className="py-6 text-4xl">
-          <a href="/work">Work</a>
+          <Link to="/work">Work</Link>
         </li>
         <li className="py-6 text-4xl">
-          <a href="/contact">Contact</a>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
 
