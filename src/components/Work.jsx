@@ -9,7 +9,12 @@ const Work = () => {
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-red-600">
             Work
           </p>
-          <p className="py-6 ">Check out of my recent work</p>
+          <p className="py-6 ">
+            I've embarked on the exciting journey of building basic projects
+            that showcase my abilities. From simple applications to
+            user-friendly interfaces, my projects are designed to demonstrate my
+            commitment to delivering quality software.
+          </p>
         </div>
 
         {/* container */}
